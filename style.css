@@ -4,17 +4,33 @@ h1,h2,li{
     font-weight: 600;
     font-style: normal;
 }
-p,ul{
+
+p{
     color: #231f20;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 400;
     font-style:italic;
 }
+
 body{
     background: #faffe6;
 }
+
 img{
     float: right;
     padding-right: 20%;
     size: 300px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    border-radius: 30px;
+    border-width:5px;
+}
+
+figure{
+    border-radius: 30px;
+    border-width:5px;
 }
