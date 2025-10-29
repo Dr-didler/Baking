@@ -1,10 +1,16 @@
-h1,h2,li{
+h2,li{
     color: #231f20;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
-
+h1{
+    color: #231f20;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 600;
+    font-style:italic;
+    float: top;
+}
 p{
     color: #231f20;
     font-family: "Alegreya Sans", sans-serif;
@@ -22,15 +28,32 @@ img{
     size: 300px;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    float: right;
-    border-radius: 30px;
-    border-width:5px;
-}
-
 figure{
     border-radius: 30px;
     border-width:5px;
 }
+img{
+    float: right;
+    padding: 30px;
+    width: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c5a880;
+  }
+  
+  ul a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  ul li a:hover {
+    background-color: #faffe6;
+  }
