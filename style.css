@@ -4,39 +4,38 @@ h2,li{
     font-weight: 600;
     font-style: normal;
 }
+
 h1{
     color: #231f20;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 600;
     font-style:italic;
-    float: top;
+    size: 50px;
 }
+
 p{
     color: #231f20;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 400;
     font-style:italic;
+    max-width: 800px;
 }
 
 body{
     background: #faffe6;
 }
 
-img{
-    float: right;
-    padding-right: 20%;
-    size: 300px;
-}
-
 figure{
     border-radius: 30px;
     border-width:5px;
 }
+
 img{
     float: right;
-    padding: 30px;
-    width: 200px;
+    padding: 75px;
+    width: 300px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -57,3 +56,28 @@ ul {
   ul li a:hover {
     background-color: #faffe6;
   }
+  aside{
+    text-align: right;
+    max-width: 200px;
+    float: right;
+    clear: both;
+  }
+
+  body{
+    padding-left: 67px;
+    padding-right: 67px;
+  }
+nav{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c5a880;
+    background-color: #faffe6;
+}
