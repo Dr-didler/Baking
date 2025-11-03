@@ -3,6 +3,8 @@ h2,li{
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 600;
     font-style: normal;
+    max-width: 500px;
+    clear: both;
 }
 
 h1{
@@ -11,6 +13,7 @@ h1{
     font-weight: 600;
     font-style:italic;
     size: 50px;
+    clear: both;
 }
 
 p{
@@ -18,22 +21,7 @@ p{
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 400;
     font-style:italic;
-    max-width: 800px;
-}
-
-body{
-    background: #faffe6;
-}
-
-figure{
-    border-radius: 30px;
-    border-width:5px;
-}
-
-img{
-    float: right;
-    padding: 75px;
-    width: 300px;
+    max-width: 500px;
 }
 
 ul {
@@ -50,34 +38,49 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    float: right;
   }
   
   ul li a:hover {
     background-color: #faffe6;
   }
-  aside{
-    text-align: right;
-    max-width: 200px;
-    float: right;
-    clear: both;
-  }
 
-  body{
-    padding-left: 67px;
-    padding-right: 67px;
-  }
 nav{
     display: block;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    float: right;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #c5a880;
     background-color: #faffe6;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.column img{
+  margin-top: 8px;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+}
+aside{
+  padding-left: 15px;
+  margin-left: 15px;
+  font-style: italic;
+  background-color:#c5a880;
+  text-align: center;
+  max-width: 300px;
+}
+body{
+  background-image:url(pictures\tools_1.jpg );
+  background-repeat:no-repeat;
+  background-position: top;
+  padding-left: 67px;
+  padding-right: 67px;
+  background-color: antiquewhite;
 }
