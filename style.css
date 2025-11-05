@@ -1,35 +1,7 @@
-h2,li{
-    color: #231f20;
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    max-width: 500px;
-    clear: both;
-}
-
-h1{
-    color: #231f20;
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 600;
-    font-style:italic;
-    size: 50px;
-    clear: both;
-}
-
-p{
-    color: #231f20;
-    font-family: "Alegreya Sans", sans-serif;
-    font-weight: 400;
-    font-style:italic;
-    max-width: 500px;
-}
-
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: #c5a880;
+    background-color: #cab496;
   }
   
   ul a {
@@ -50,37 +22,46 @@ nav{
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #c5a880;
-    background-color: #faffe6;
+    display: flex;
 }
-.column{
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+.index-home-page{
+  background-image: url(pictures/actualshii.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
 }
-.column img{
-  margin-top: 8px;
-  width: 75%;
-  justify-content: center;
-  align-items: center;
-}
-aside{
-  padding-left: 15px;
-  margin-left: 15px;
-  font-style: italic;
-  background-color:#c5a880;
-  text-align: center;
-  max-width: 300px;
+.cobbler-page{
+  background-image: url(pictures/cobbler-bg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
 }
 body{
-  background-image:url(pictures\tools_1.jpg );
-  background-repeat:no-repeat;
-  background-position: top;
-  padding-left: 67px;
-  padding-right: 67px;
-  background-color: antiquewhite;
+  background-color: #faffe6;
+}
+h1{
+  clear: both;
+  float:left;
+  font-family:"chivo" , serif;
+  margin: 25px 50px;
+}
+h2{
+   font-family:"chivo" , serif;
+   margin: 25px 50px;
+}
+p{
+  font-family:"Poiret" , serif ;
+  margin: 25px 50px;
+  width: 150px;
+  border: 1px solid black;
+}
+ol{
+  width: 150px;
+  border: 1px solid black;
+}
+img{
+  width: 200px;
+  margin: 25px 50px;
 }
