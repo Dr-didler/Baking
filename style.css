@@ -1,31 +1,21 @@
 ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #cab496;
-  }
-  
-  ul a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  ul li a:hover {
-    background-color: #faffe6;
-  }
-
-nav{
-    display: block;
-    color: black;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border: 1px solid #c5a880;
+  background-color: #c5a880;
+    float: right;
 }
+
+ul li a {
+  display: block;
+  color: #3f3b27;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
 .index-home-page{
   background-image: url(pictures/actualshii.jpg);
   background-size: cover;
@@ -38,30 +28,45 @@ nav{
   height: 300px;
   background-position: 25% 75%;
 }
+.bannana_page{
+  background-image: url(pictures/bananabg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
+.angel_food{
+  background-image: url(pictures/angel_cake_bg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 25% 75%;
+}
 body{
   background-color: #faffe6;
 }
 h1{
   clear: both;
   float:left;
-  font-family:"chivo" , serif;
+  font-family: "Chivo", sans-serif;
   margin: 25px 50px;
 }
 h2{
-   font-family:"chivo" , serif;
+  font-family: "Chivo", sans-serif;
    margin: 25px 50px;
 }
 p{
-  font-family:"Poiret" , serif ;
+  font-family: "Poiret One", sans-serif;
   margin: 25px 50px;
-  width: 150px;
+  width: 300px;
   border: 1px solid black;
+  padding-left: 150px;
 }
 ol{
   width: 150px;
   border: 1px solid black;
+  font-family: "Poiret One", sans-serif;
+
 }
 img{
-  width: 200px;
+  width: 300px;
   margin: 25px 50px;
 }
