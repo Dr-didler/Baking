@@ -56,9 +56,10 @@ h1{
 }
 h2{
   font-family: "Chivo", sans-serif;
-   margin: 25px 50px;
+
 }
 p{
+  
   font-family: "Poiret One", sans-serif;
   width: 300px;
   font-weight: 700;
@@ -73,9 +74,7 @@ img{
   width: 300px;
   margin: 25px 50px;
 }
-.intro_p_i{
-  padding:  0px 0px 100px 50px;
-}
+
 .recipe_and_pic{
   padding: 0px  0px 0px 500px;
 }
