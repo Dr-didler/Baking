@@ -5,4 +5,5 @@ p,ol,h2{
 .column{
     float: right;
     padding-right: 750px;
+    max-width: 250px;
 }
